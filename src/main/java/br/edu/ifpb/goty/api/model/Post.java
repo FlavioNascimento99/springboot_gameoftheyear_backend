@@ -1,6 +1,5 @@
 package br.edu.ifpb.goty.api.model;
 
-
 import jakarta.persistence.*;
 
 @Entity
