@@ -13,7 +13,7 @@ import java.util.List;
 public class PostController {
 
     @Autowired
-    private PostService postService;
+    public PostService postService;
 
     @GetMapping
     public List<Post> getPosts() {

@@ -3,7 +3,7 @@ package br.edu.ifpb.goty.api.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name= "table_post")
+@Table(name= "posts")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

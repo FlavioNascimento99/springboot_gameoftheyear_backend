@@ -5,7 +5,6 @@ import br.edu.ifpb.goty.api.model.Post;
 import br.edu.ifpb.goty.api.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -16,7 +15,7 @@ public class PostService {
     private PostRepository postRepository;
 
     public List<Post> getPosts() {
-        return (List<Post>) this.postRepository.findAll();
+        return postRepository.findAll();
     }
 
     public Post getPostById(Long idPost) {
