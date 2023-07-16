@@ -1,4 +1,2 @@
 # Backend em SpringBoot
-
-
-Using the SpringBoot library in Java, I created some controller methods for my Angular application "gameoftheyear" while I study some java for future projects.
+Sistema de controle em Springboot para aplicação de mesmo nome, desenvolvido com Angular 12 tentando utilizar de padrões de projetos discutidos em sala.
